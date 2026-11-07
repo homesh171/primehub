@@ -1,0 +1,116 @@
+/* 
+	author: istockphp.com
+*/
+#backgroundPopup
+{
+    z-index: 6;
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    top: 0px;
+    left: 0px;
+}
+#toPopup {
+	background: #FFF none repeat scroll 0px 0px;
+	border: 10px solid #FFF;
+	border-radius: 3px;
+	color: #333;
+	display: none;
+	font-size: 14px;
+	left: 39%;
+	position: fixed;
+	top: 10%;
+	z-index: 9999;
+	width: 80%;
+	max-width: 450px;
+	/* margin-left: -402px; */
+}
+#toPopup1 {
+	background: #FFF none repeat scroll 0px 0px;
+	border: 10px solid #FFF;
+	border-radius: 3px;
+	color: #333;
+	display: none;
+	font-size: 14px;
+	position: fixed;
+	top: 20%;
+	z-index: 9999;
+	width: 80%;
+	max-width: 350px;
+	left: 40%;
+	/* margin-left: -402px; */
+}
+div.loader
+{
+    background: url("../img/loading.gif") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 9999;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    margin-left: -10px;
+}
+div.close
+{
+    background: url("../img/closebox.png") no-repeat scroll 0 0 transparent;
+    bottom: 24px;
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    left: 27px;
+    position: relative;
+    width: 30px;
+}
+span.ecs_tooltip
+{
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+span.arrow
+{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content
+{
+    margin: 4px 7px;
+}
+div#popup_content1
+{
+    margin: 4px 7px;
+    height: 300px !important;
+}
+
+@media (max-width: 500px) {
+#toPopup1 {
+     width: 89% !important;
+     left: 3% !important;
+    /* margin-left: -402px; */
+}
+#toPopup {
+    left: 2% !important;
+    width: 91% !important;
+    /* margin-left: -402px; */
+}}

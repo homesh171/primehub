@@ -1,0 +1,123 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+
+/* Global properties */
+html {width:100%}
+body { background:#fff;
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin:0px;
+	padding:0px;
+}
+
+h1
+{ font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:24px; color:#fff;}
+
+
+
+a, img, input, textarea  {
+	color: #23dbdb;
+	text-decoration: none; outline:none; text-decoration:none;  -webkit-transition: 0.4s; -moz-transition: 0.4s; -ms-transition: 0.4s; transition: 0.4s;
+}
+a:hover{color:#050606;}
+a:active{outline:none;}
+
+
+img{ border:none;}
+.clearfix:after
+{clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+/* Mozilla based browsers */
+::-moz-selection 
+{background-color: #FF0000; color: #3F0;}
+/* Works in Safari */
+
+::selection 
+{background-color: #FF0000; color: #3F0;}
+input, a, select, textarea, button{ outline:none;}
+.clear{ clear:both;}
+/*------------------------------------- default css------------------------------------ */
+#wrapper
+{width:100%;}
+.container
+{width:90%; margin:0px auto;}
+.header
+{width:100%; border-bottom:5px solid #008e00; background:#fff;}
+.logo
+{float:left; width:15%; height:auto; margin:0% 0 0 0; position:absolute; width:186px; height:177px; z-index:99999;}
+.top_menu
+{float:right; width:13%; margin:20px 0 20px 0;}
+.top_menu ul
+{margin:0px; padding:0px;}
+.top_menu ul li
+{list-style:none; float:left; margin:0 8% 0 0%}
+.top_menu ul li a
+{display:block; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:14px; color:#575252;}
+.main_part
+{width:100%;background:url(../images/maxresdefault.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+.main_left_part
+{width:82%; float:right; margin:6px 0 0 0;}
+.main_right_part
+{width:10%; float:left;}
+.step_first_bg
+{margin:3% 0 0 0;}
+
+
+.tital_name
+{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:16px; color:#fff; margin:0 0 2% 0; font-weight:bold;}
+.tital_name span
+{color:#fff; font-size:10px;}
+
+.input_top
+{margin:0px 0 0 0;}
+.bottom-contact 
+{border:medium none;  padding:14px; width:95%; background: #fff; border:2px solid #efa273; color:#000;}
+.listbox_left
+{float:left; width:48%;}
+.listbox_right
+{float:left; width:46%; margin:0 0 0 25px;}
+.droup_right {
+    float:right;
+   
+    width: 48%;
+}
+
+
+.login_list_box
+{border:medium none;  padding:14px; width:100%; background: #fff; border:2px solid #efa273; color:#000;}
+
+.h-readmore
+{border-radius: 5px 5px 5px 5px; border:1px solid #35AFEB; color: #fff; cursor: pointer; font-size: 18px;  height: 40px; margin:20px 0 0 0;
+line-height: 40px; width:200px; 
+text-align:center; background: #008ACE; margin:30px 10px 0 0;  /* Old browsers */}
+.h-readmore:hover
+{background: #008e00; color:#fff; border:1px solid #008e00;}
+
+.input_top img {
+    float: right;
+    margin: -32px 0 0 -37px;
+    width: 4%;
+}
+.bottom-menu
+{ width:100%; height:40px; background:#840008;}
+.two_menu
+{margin:0 0 0 0; width:100%;}
+.two_menu ul
+{margin:0px; padding:0px;}
+.two_menu ul li
+{list-style:none; float:left; margin:0 10px 0 0;}
+
+.two_menu ul li a
+{display:block; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:14px; color:#fff; line-height:40px; font-weight:bold;}
+
+
+
+
+
+
+
